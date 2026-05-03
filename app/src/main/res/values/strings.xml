@@ -1,0 +1,16 @@
+<!--
+  ~ Verantwortlicher Mitarbeiter: linosteiner
+  ~ Letzte Änderung: 03.05.2026
+  -->
+<resources>
+    <string name="app_name" translatable="false">FitApp</string>
+    <string name="appHeader" translatable="false">Welcome to FitApp!</string>
+    <string name="bmiExplanation">The BMI is calculated as follows:\nBMI = m / l²</string>
+    <string name="openBmiCalculator">Open BMI Calculator</string>
+    <string name="bmiCalculator">BMI Calculator\t</string>
+    <string name="weightInKg">Weight in kg</string>
+    <string name="heightInCm">Height in cm</string>
+    <string name="calculateBMI">Calculate BMI</string>
+    <string name="bmiResultHeader">BMI</string>
+    <string name="bmiResult">BMI Result</string>
+</resources>
