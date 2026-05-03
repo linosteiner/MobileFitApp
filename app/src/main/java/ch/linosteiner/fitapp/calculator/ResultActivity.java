@@ -3,12 +3,11 @@
  * Letzte Änderung: 03.05.2026
  */
 
-package ch.linosteiner.fitapp;
+package ch.linosteiner.fitapp.calculator;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +15,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Result extends AppCompatActivity {
+import ch.linosteiner.fitapp.R;
+
+public class ResultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

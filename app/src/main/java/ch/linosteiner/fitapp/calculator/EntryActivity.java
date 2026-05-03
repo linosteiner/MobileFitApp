@@ -3,7 +3,7 @@
  * Letzte Änderung: 03.05.2026
  */
 
-package ch.linosteiner.fitapp;
+package ch.linosteiner.fitapp.calculator;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,15 +16,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import ch.linosteiner.fitapp.util.BmiCalculator;
+import ch.linosteiner.fitapp.R;
+import ch.linosteiner.fitapp.util.BMI;
 
-public class Calculator extends AppCompatActivity {
+public class EntryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_calculator);
+        setContentView(R.layout.activity_entry);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -50,9 +51,9 @@ public class Calculator extends AppCompatActivity {
                     heightInCm.setError("Bitte geben Sie einen Wert zwischen 100cm und 220cm ein.");
                     return;
                 }
-                double bmi = BmiCalculator.calculateBmi(weight, height);
+                double bmi = BMI.calculateBmi(weight, height);
 
-                Intent resultIntent = new Intent(this, Result.class);
+                Intent resultIntent = new Intent(this, ResultActivity.class);
                 resultIntent.putExtra("bmiResult", bmi);
                 startActivity(resultIntent);
             }

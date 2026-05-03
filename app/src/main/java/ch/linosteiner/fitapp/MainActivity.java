@@ -15,6 +15,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import ch.linosteiner.fitapp.calculator.EntryActivity;
+
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
         Button openBmiCalculator = findViewById(R.id.openBmiCalculator);
         openBmiCalculator.setOnClickListener(view -> {
-            Intent bmiCalculatorIntent = new Intent(this, Calculator.class);
+            Intent bmiCalculatorIntent = new Intent(this, EntryActivity.class);
             startActivity(bmiCalculatorIntent);
         });
     }
