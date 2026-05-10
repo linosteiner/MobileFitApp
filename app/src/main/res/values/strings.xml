@@ -1,6 +1,6 @@
 <!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 03.05.2026
+  ~ Letzte Änderung: 10.05.2026
   -->
 <resources>
     <string name="app_name" translatable="false">FitApp</string>
@@ -13,4 +13,17 @@
     <string name="calculateBMI">Calculate BMI</string>
     <string name="bmiResultHeader">BMI</string>
     <string name="bmiResult">BMI Result</string>
+
+    <string name="main">Main</string>
+    <string name="exit">Exit</string>
+    <string name="home">Home</string>
+    <string name="calculator">Calculator</string>
+    <string name="rating">Rating</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="detailView">Detailansicht</string>
+    <string name="generalName">General: %s</string>
+    <string name="specificName">Specific: %s</string>
+    <string name="minValue">Min Value: %s</string>
+    <string name="maxValue">Max Value: %s</string>
 </resources>

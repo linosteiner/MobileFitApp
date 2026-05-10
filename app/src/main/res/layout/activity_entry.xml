@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 03.05.2026
+  ~ Letzte Änderung: 10.05.2026
   -->
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"

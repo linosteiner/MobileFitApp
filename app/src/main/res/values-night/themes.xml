@@ -1,12 +1,12 @@
 <!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 03.05.2026
+  ~ Letzte Änderung: 10.05.2026
   -->
 
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FitApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.FitApp" parent="Theme.Material3.DayNight">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

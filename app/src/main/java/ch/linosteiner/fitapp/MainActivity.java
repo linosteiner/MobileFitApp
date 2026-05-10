@@ -1,6 +1,6 @@
 /*
  * Verantwortlicher Mitarbeiter: linosteiner
- * Letzte Änderung: 03.05.2026
+ * Letzte Änderung: 10.05.2026
  */
 
 package ch.linosteiner.fitapp;
@@ -10,14 +10,13 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import ch.linosteiner.fitapp.calculator.EntryActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

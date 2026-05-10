@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Verantwortlicher Mitarbeiter: linosteiner
+  ~ Letzte Änderung: 10.05.2026
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/menu_calculator"
+        android:title="@string/calculator" />
+    <item
+        android:id="@+id/menu_rating"
+        android:title="@string/rating" />
+    <item
+        android:id="@+id/menu_history"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings" />
+</menu>

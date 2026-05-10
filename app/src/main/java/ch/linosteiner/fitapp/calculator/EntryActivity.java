@@ -1,6 +1,6 @@
 /*
  * Verantwortlicher Mitarbeiter: linosteiner
- * Letzte Änderung: 03.05.2026
+ * Letzte Änderung: 10.05.2026
  */
 
 package ch.linosteiner.fitapp.calculator;
@@ -11,15 +11,15 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import ch.linosteiner.fitapp.BaseActivity;
 import ch.linosteiner.fitapp.R;
 import ch.linosteiner.fitapp.util.BMI;
 
-public class EntryActivity extends AppCompatActivity {
+public class EntryActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

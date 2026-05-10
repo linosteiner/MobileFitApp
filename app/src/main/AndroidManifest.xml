@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 03.05.2026
+  ~ Letzte Änderung: 10.05.2026
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -22,6 +20,20 @@
         <activity
             android:name=".calculator.EntryActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".rating.LegendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rating.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".history.OverviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".config.SettingsActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
