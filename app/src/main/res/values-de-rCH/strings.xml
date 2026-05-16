@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Verantwortlicher Mitarbeiter: linosteiner
+  ~ Letzte Änderung: 11.05.2026
+  -->
+
+<resources>
+    <string name="appHeader">Willkommen zu FitApp!</string>
+    <string name="bmiExplanation">Der BMI wird wie folgt berechnet:\nBMI = m / l²</string>
+    <string name="openBmiCalculator">BMI Rechner öffnen</string>
+    <string name="bmiCalculator">BMI Rechner</string>
+    <string name="weightInKg">Gewicht in kg</string>
+    <string name="heightInCm">Grösse in cm</string>
+    <string name="calculateBMI">BMI berechnen</string>
+    <string name="bmiResultHeader">BMI</string>
+    <string name="bmiResult">BMI Resultat</string>
+    <string name="main">Main</string>
+    <string name="exit">Schliessen</string>
+    <string name="home">Home</string>
+    <string name="calculator">Rechner</string>
+    <string name="rating">Bewertung</string>
+    <string name="history">Historie</string>
+    <string name="settings">Einstellungen</string>
+    <string name="detailView">Detailansicht</string>
+    <string name="generalName">Allgemein: %s</string>
+    <string name="specificName">Spezifisch: %s</string>
+    <string name="minValue">Min Wert: %s</string>
+    <string name="maxValue">Max Wert: %s</string>
+    <string name="newFruit">+ Neue Frucht hinzufügen</string>
+    <string name="addFruitTextView">Frucht hinzufügen</string>
+    <string name="addFruitHint">Frucht hinzufügen</string>
+</resources>

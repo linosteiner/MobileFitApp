@@ -5,30 +5,33 @@
 
 package ch.linosteiner.fitapp.rating;
 
+import static android.R.layout.*;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.Arrays;
+
 import ch.linosteiner.fitapp.BaseActivity;
 import ch.linosteiner.fitapp.R;
+import ch.linosteiner.fitapp.databinding.ActivityLegendBinding;
 import ch.linosteiner.fitapp.util.BMI;
 
 public class LegendActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_legend);
-
+        setContentView(ActivityLegendBinding.inflate(getLayoutInflater()).getRoot());
         ListView listView = findViewById(R.id.categoryListView);
 
         BMI.BmiCategory[] categories = BMI.BmiCategory.values();
-        String[] categoryNames = new String[categories.length];
-        for (int i = 0; i < categories.length; i++) {
-            categoryNames[i] = categories[i].getFullName();
-        }
+        String[] categoryNames = Arrays.stream(categories)
+                .map(BMI.BmiCategory::getFullName)
+                .toArray(String[]::new);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, categoryNames);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, simple_list_item_1, categoryNames);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener((parent, view, position, id) -> {
