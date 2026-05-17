@@ -1,6 +1,6 @@
 <!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 10.05.2026
+  ~ Letzte Änderung: 16.05.2026
   -->
 <resources>
     <string name="app_name" translatable="false">FitApp</string>
@@ -13,7 +13,6 @@
     <string name="calculateBMI">Calculate BMI</string>
     <string name="bmiResultHeader">BMI</string>
     <string name="bmiResult">BMI Result</string>
-
     <string name="main">Main</string>
     <string name="exit">Exit</string>
     <string name="home">Home</string>
@@ -29,4 +28,7 @@
     <string name="newFruit">+ Add new fruit</string>
     <string name="addFruitTextView">Add Fruit</string>
     <string name="addFruitHint">Add fruit</string>
+    <string name="users">Users</string>
+    <string name="newLogin">New Login</string>
+    <string name="loginName">Login Name</string>
 </resources>

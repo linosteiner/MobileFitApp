@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!--
   ~ Verantwortlicher Mitarbeiter: linosteiner
-  ~ Letzte Änderung: 11.05.2026
+  ~ Letzte Änderung: 16.05.2026
   -->
 
 <resources>
@@ -28,4 +28,7 @@
     <string name="newFruit">+ Neue Frucht hinzufügen</string>
     <string name="addFruitTextView">Frucht hinzufügen</string>
     <string name="addFruitHint">Frucht hinzufügen</string>
+    <string name="users">Benutzende</string>
+    <string name="newLogin">Neues Login</string>
+    <string name="loginName">Login Name</string>
 </resources>
